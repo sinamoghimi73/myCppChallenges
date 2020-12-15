@@ -1,7 +1,7 @@
-#A + B
+# A + B
 
 Input : 
 `10 - 3.7`
 
-    Output :
+Output :
 `6.3`
