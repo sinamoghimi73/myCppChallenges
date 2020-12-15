@@ -3,5 +3,5 @@
 Input : 
 `10 -3.7 -05 -12 16`
 
-    Output :
+Output :
 `5.3`
