@@ -1,9 +1,7 @@
 //
 //  main.cpp
 //  S1N4M
-//
-//  Created by Sina Moghimi on 11/26/20.
-//
+
 
 #include <iostream>
 #include <sstream>
