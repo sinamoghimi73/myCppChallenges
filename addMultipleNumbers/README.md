@@ -1,4 +1,4 @@
-# add Multiple Numbers
+# Add Multiple Numbers
 
 Input : 
 `10 -3.7 -05 -12 16`
