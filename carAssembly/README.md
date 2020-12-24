@@ -3,6 +3,7 @@ You work in a toy car workshop, and your job is to build toy cars from a collect
 
 `Entries:` wheels, car bodies, figures
 
+## Examples
 `cars(2, 48, 76) ➞ 0`
 
 `cars(43, 15, 87) ➞ 10`
