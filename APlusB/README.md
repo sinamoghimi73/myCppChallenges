@@ -1,5 +1,6 @@
 # A + B
 
+## Examples
 Input : 
 `10 -3.7`
 
