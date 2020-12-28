@@ -11,7 +11,7 @@ int fastModularExponentiation(const int &base, const int &power,
 
   for (int i{}; i < n; ++i) {
     if (power & mask) x = (x * pow) % modulo;
-    p = (pow * pow) % modulo;
+    pow = (pow * pow) % modulo;
     mask <<= 1;
   }
 
