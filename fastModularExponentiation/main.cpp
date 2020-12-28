@@ -19,11 +19,11 @@ int fastModularExponentiation(const int &base, const int &power,
 }
 
 int main() {
-  std::cout << "Enter a, b, c as a^b mod c : ";
+  std::cout << "Enter b, p, m as b^p mod m : ";
 
-  int a{}, b{}, c{};
-  std::cin >> a >> b >> c;
-  std::cout << fastModularExponentiation(a, b, c) << std::endl;
+  int b{}, p{}, m{};
+  std::cin >> b >> p >> m;
+  std::cout << fastModularExponentiation(b, p, m) << std::endl;
 
   return 0;
 }
