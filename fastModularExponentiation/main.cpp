@@ -7,11 +7,11 @@
 
 int fastModularExponentiation(const int &base, const int &power,
                               const int &modulo) {
-  int x{1}, n(ceil(log2(power))), p{base % modulo}, mask{1};
+  int x{1}, n(ceil(log2(power))), pow{base % modulo}, mask{1};
 
   for (int i{}; i < n; ++i) {
-    if (power & mask) x = (x * p) % modulo;
-    p = (p * p) % modulo;
+    if (power & mask) x = (x * pow) % modulo;
+    p = (pow * pow) % modulo;
     mask <<= 1;
   }
 
